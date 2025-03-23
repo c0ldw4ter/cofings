@@ -18,7 +18,7 @@ for config:
 mkdir .config/alacritty/themes
 
 mv .config/alacritty/alacritty.toml
-
+```
 
 themes:
 
@@ -29,9 +29,6 @@ git@github.com:alacritty/alacritty-theme.git
 mv <git repo> ~/.config/alacritty/themes
 
 ```
-
-
-
 
 # Linux
 
@@ -52,6 +49,8 @@ sudo ln -s $HOME/.soft/nvim-linux64/bin/nvim /usr/local/bin/nvim
 wget https://www.python.org/ftp/python/3.13.1/Python-3.13.1.tgz
 
 ./configure --enable-optimizations --prefix=$HOME/.python3.13
+
+```
 
 ```
 
